@@ -2,10 +2,12 @@ import "../ItemCard/ItemCard.css";
 
 function ItemCard({ item }) {
   return (
-    <div >
-      <h2>{item.name}</h2>
-      <img src={item.link} alt={item.name} />
-    </div>
+    <li className="card">
+      <div className="cards__text-container">
+        <h2 className="cards__text">{item.name}</h2>
+      </div>
+      <img className="cards__image" src={item.link} alt={item.name} />
+    </li>
   );
 }
 

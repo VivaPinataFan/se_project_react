@@ -1,16 +1,48 @@
-.cards {
-  background-color: #f3f3f3;
+
+.card {
   position: relative;
+  border: 1px solid rgba(0,0,0, 0.3);
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  height: 100%;
+  /* align-items: center; */
+  border-radius: 20px;
 }
+
+.cards__temp {
+  font-family: "CabinetGrotesk-Bold";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.8px;
+  margin: 40px 0 34px;
+}
+
+/* .cards__text-container {
+  
+} */
+
 
 .cards__text {
   font-family: "CabinetGrotesk-Bold";
-  font-size: 20px;
-  line-height: 24.8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0,0,0, 0.6);
+  position: absolute;
+  top: 20px;
+  right: 110px;
+  padding: 2px 12px;
+  margin: 0 auto;
+  background-color: #ffff;
+  border-radius: 4px;
 }
 
-.cards__list {
-  font-family: "CabinetGrotesk-Bold";
-  font-size: 20px;
-  line-height: 24.8px;
+
+
+.cards__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
