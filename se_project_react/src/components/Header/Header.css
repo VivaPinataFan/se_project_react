@@ -19,7 +19,7 @@
     padding: 0px;
     border: none;
     font-family:"CabinetGrotesk-Bold";
-
+    cursor: pointer;
 }
 
 .header__user-container {
