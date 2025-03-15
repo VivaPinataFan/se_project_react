@@ -1,9 +1,13 @@
-# WTWR (What to Wear?)
+# What to Wear (WTWR)
 
-## About the project
+## Project Description
 
-The idea of the application is pretty simple - we make a call to an API, which then responds with the daily weather forecast. We collect the weather data, process it, and then based on the forecast, we recommend suitable clothing to the user.
+This application will read weather data from [OpenWeather](https://openweathermap.org/) and then recommend suitable clothing to the user based on that data.
 
-## Links
+## Github Link
 
-- [Figma Design](https://www.figma.com/file/DTojSwldenF9UPKQZd6RRb/Sprint-10%3A-WTWR)
+https://github.com/VivaPinataFan/se_project_react
+
+## Figma Design
+
+https://www.figma.com/file/F03bTb81Pw8IDPj5Y9rc5i/Sprint-10-%7C-WTWR

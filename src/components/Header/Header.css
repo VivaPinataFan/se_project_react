@@ -20,6 +20,7 @@
     border: none;
     font-family:"CabinetGrotesk-Bold";
     cursor: pointer;
+    transition: color 0.3s linear;
 }
 
 .header__user-container {
